@@ -1,0 +1,44 @@
+h1{
+  text-align: center;
+  font-weight: 700;
+  color:azure;
+
+}
+.container{
+  margin-top: 250px;
+  
+}
+body{
+  background-image:url(../images/weather.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; 
+  display: grid;
+  justify-content: center;
+}
+button{
+  padding: 10px 20px;
+  background-color:rgb(1, 75, 75);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid beige;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#weatherInfo{
+  margin-top: 10px;
+  padding: 1px;
+  text-align: center;
+  border: none;
+  background-color:rgb(1, 75, 75);
+  color: white;
+  border-radius: 5px;
+  width:auto;
+  padding-inline:10px;
+
+}
